@@ -1,29 +1,25 @@
-
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 
 clear
-echo -e "\033[1;31m"
-echo "========================================="
-echo "       INSTALLATION DEKU225 TRACEUR      "
-echo "========================================="
-echo -e "\033[0m"
+echo "======================================="
+echo "   INSTALLATION DE TRACEUR OSINT"
+echo "======================================="
 
-echo "[1/6] 📦 Installation de Python et Git..."
-pkg install -y python git
+# Mise à jour de Termux
+pkg update -y && pkg upgrade -y
 
-echo "[2/6] 📦 Installation de pip et dépendances..."
+# Installation de Python et Git
+pkg install python git -y
+
+# Installation de pip si besoin
 pip install --upgrade pip
-pip install requests phonenumbers colorama
 
-echo "[3/6] 🔁 Clonage du dépôt..."
-git clone https://github.com/Deku0019523f/Traceur-osint.git
-cd Traceur-osint
-
-echo "[4/6] 🛠️  Installation via requirements.txt..."
+# Installation des bibliothèques requises
 pip install -r requirements.txt
 
-echo "[5/6] ✅ Configuration terminée !"
-echo "[6/6] 🚀 Lancement de l'outil..."
-
+# Lancement de l'outil
+echo ""
+echo "✅ Installation terminée !"
+echo "🔍 Lancement de Traceur OSINT..."
 sleep 2
 python traceur_osint.py
