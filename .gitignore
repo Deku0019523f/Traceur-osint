@@ -1,0 +1,19 @@
+# Fichiers Python inutiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de log ou temporaires
+*.log
+*.db
+*.sqlite3
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Environnement virtuel (si jamais tu en crées un)
+venv/
+.env/
