@@ -93,3 +93,8 @@ Licence : MIT
 - [Phonenumbers](https://pypi.org/project/phonenumbers/) (numéros de téléphone)
 - [Google Dork OSINT](https://www.exploit-db.com/google-hacking-database)
 ing-database)
+---
+
+## 📸 Aperçu du script
+
+![Capture du script](screenshot.png)
