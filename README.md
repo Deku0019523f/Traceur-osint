@@ -24,12 +24,12 @@ Un outil Python simple pour tracer **une adresse IP**, obtenir des infos sur **u
 ### 🐧 Sous Linux ou Termux (Android)
 
 ```bash
-pkg update && pkg upgrade
-pkg install python
-pkg install git
+pkg update && pkg upgrade -y
+pkg install python git -y
 git clone https://github.com/Deku0019523f/Traceur-osint
 cd Traceur-osint
-pip install -r requirements.txt
+chmod +x install.sh
+./install.sh
 ```
 
 ### 🪟 Sous Windows
