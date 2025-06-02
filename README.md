@@ -1,4 +1,9 @@
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Deku0019523f/Traceur-osint/main/logo.png" width="150" alt="Logo OSINT">
+</p>
+
+
 # 🔍 Traceur OSINT - IP, Téléphone, Réseaux (avec interface graphique)
 
 Un outil Python simple pour tracer **une adresse IP**, obtenir des infos sur **un numéro de téléphone**, et générer des **liens de recherche OSINT** sur les réseaux sociaux et Google.
@@ -74,7 +79,7 @@ Toute utilisation abusive ou illégale est sous votre propre responsabilité.
 
 ## 👤 Auteur
 
-Développé par [DEKU225]  
+Développé par [Deku225]  
 Licence : MIT
 
 ---
@@ -84,3 +89,4 @@ Licence : MIT
 - [IP-API.com](http://ip-api.com) (localisation IP)
 - [Phonenumbers](https://pypi.org/project/phonenumbers/) (numéros de téléphone)
 - [Google Dork OSINT](https://www.exploit-db.com/google-hacking-database)
+ing-database)
