@@ -74,7 +74,7 @@ Toute utilisation abusive ou illégale est sous votre propre responsabilité.
 
 ## 👤 Auteur
 
-Développé par [Ton Nom ou Pseudo ici]  
+Développé par [DEKU225]  
 Licence : MIT
 
 ---
