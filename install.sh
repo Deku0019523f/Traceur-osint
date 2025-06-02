@@ -11,8 +11,8 @@ pkg update -y && pkg upgrade -y
 # Installation de Python et Git
 pkg install python git -y
 
-# Installation de pip si besoin
-pip install --upgrade pip
+# Ne pas forcer l’upgrade de pip dans Termux
+# pip est déjà installé avec python dans Termux
 
 # Installation des bibliothèques requises
 pip install -r requirements.txt
