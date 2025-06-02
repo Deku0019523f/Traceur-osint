@@ -26,7 +26,10 @@ Un outil Python simple pour tracer **une adresse IP**, obtenir des infos sur **u
 ```bash
 pkg update && pkg upgrade
 pkg install python
-pip install requests phonenumbers tk
+pkg install git
+git clone https://github.com/Deku0019523f/Traceur-osint
+cd Traceur-osint
+pip install -r requirements.txt
 ```
 
 ### 🪟 Sous Windows
