@@ -2,3 +2,4 @@
 requests
 phonenumbers
 tk
+colorama
